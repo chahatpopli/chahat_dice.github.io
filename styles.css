@@ -1,0 +1,45 @@
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #1E6F5C;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #FFE268;
+}
+
+@media (min-width:400px) {
+    h1 {
+        font-size: 3.9rem;
+    }
+}
+
+p {
+    font-size: 1.5rem;
+    color: #FFE268;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
