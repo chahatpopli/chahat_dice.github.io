@@ -1,11 +1,11 @@
 var num1 = Math.random() * 6;
 num1 = Math.floor(num1) + 1;
-var sourceImage1 = "images/dice" + num1 + ".png";
+var sourceImage1 = "dice" + num1 + ".png";
 document.querySelectorAll("img")[0].setAttribute("src", sourceImage1);
 
 var num2 = Math.random() * 6;
 num2 = Math.floor(num2) + 1;
-var sourceImage2 = "images/dice" + num2 + ".png";
+var sourceImage2 = "dice" + num2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", sourceImage2);
 
 if (num1 > num2) {
